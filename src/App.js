@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Box from "./Box"
 import BoxList from './BoxList';
+import TodoList from './TodoList';
+
 
 function App() {
   return (
     <div className="App">
       <BoxList />
+      <TodoList />
     </div>
   );
 }

@@ -6,7 +6,7 @@ const NewBoxForm = ({createBox}) =>{
     const INITIAL_STATE ={
         height: "",
         width: "",
-        color: ""
+        backgroundColor: ""
     }
     const [formData, setFormData] = useState(INITIAL_STATE);
 
